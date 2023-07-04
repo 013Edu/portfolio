@@ -110,7 +110,7 @@ const Header: React.FC = () => {
 
                     <div className='absolute mt-36 mr-11 -z-30 top-0 opacity-0 aos-init'
                         data-aos='fade-left'
-                        data-aos-delay='3000'
+                        data-aos-delay='1000'
                         data-aos-duration='1000'
                     >
                         <Image
@@ -153,8 +153,8 @@ const Header: React.FC = () => {
                 <h1
                     className='lg:text-5xl lg:mt-96 text-center opacity-0 aos-init max-[1025px]:mt-96 min-[35px]:text-3xl min-[375px]:mt-56 min-[375px]:absolute min-[375px]:top-80'
                     data-aos='fade-left'
-                    data-aos-delay='2000'
-                    data-aos-duration='1000'
+                    data-aos-delay='600'
+                    data-aos-duration='600'
                 >
                     Criando produtos <span className='text-purple-500'>&</span> <br />
                     gerando experiências digitais.
@@ -162,8 +162,8 @@ const Header: React.FC = () => {
                 <div
                     className='absolute -z-20 opacity-0 top-0 lg:top-5 aos-init max-[1025px]:mt-48 min-[375px]:mt-96'
                     data-aos='fade-right'
-                    data-aos-delay='2000'
-                    data-aos-duration='1000'
+                    data-aos-delay='600'
+                    data-aos-duration='600'
                 >
                     <Image
                         src={Mac}
@@ -175,8 +175,8 @@ const Header: React.FC = () => {
                 <div
                     className='absolute -z-50 top-0 lg:mt-40 opacity-0 aos-init max-[1025px]:mt-48 min-[375px]:mt-52'
                     data-aos='fade-left'
-                    data-aos-delay='3000'
-                    data-aos-duration='1000'
+                    data-aos-delay='600'
+                    data-aos-duration='600'
                 >
                     <Image
                         src={Phone}
