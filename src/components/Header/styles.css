@@ -1,0 +1,13 @@
+.line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: #6B46C1;
+    transition: width 0.3s ease-in-out;
+}
+
+h2:hover .line {
+    width: 100%;
+}
