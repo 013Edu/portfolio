@@ -4,9 +4,9 @@ import React, { useEffect, useState } from 'react';
 
 import "./styles.css"
 
-import Mac from "../../assets/mac.jpg"
-import Phone from "../../assets/phone.jpg"
-import Logo from "../../assets/logotipo.png"
+import Mac from "../../../public/assets/mac.jpg"
+import Phone from "../../../public/assets/phone.jpg"
+import Logo from "../../../public/assets/logo.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

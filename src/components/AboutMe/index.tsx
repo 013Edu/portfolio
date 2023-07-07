@@ -1,12 +1,29 @@
 import Image from 'next/image';
 import React from 'react';
 
-import Me from "../../assets/eu.jpeg"
+import Me from "../../../public/assets/eu.jpeg"
+
+import { FaCode, FaRetweet, FaUikit } from "react-icons/fa"
 
 import "./styles.css"
-import ItemSkill from '../ItemSkill';
+
+import Carousel from '../Carrousel';
 
 const AboutMe: React.FC = () => {
+
+    const items = [
+        { image: "/assets/react.png", text: 'React' },
+        { image: '/assets/javascript.png', text: 'Javascript' },
+        { image: '/assets/react.png', text: 'React Native' },
+        { image: '/assets/meu.png', text: 'Next Js' },
+        { image: '/assets/styled.png', text: 'Styled Components' },
+        { image: '/assets/tailwind.png', text: 'Tailwind CSS' },
+        { image: '/assets/meuu.jpg', text: 'Figma' },
+        { image: '/assets/prototi.webp', text: 'Prototipagem' },
+
+    ];
+
+
     return (
         <div>
             <div className='mt-custom flex items-center justify-center gap-20 max-[1540px]:flex-col max-[375px]:flex-col max-[375px]:px-5'>
@@ -49,10 +66,115 @@ const AboutMe: React.FC = () => {
                     </h3>
                 </div>
             </div>
-            <div className='mt-28 flex justify-center'>
+            <div className='my-20 flex justify-center'>
                 <h2 className='text-xl tracking-widest font-mono'>MINHAS SKILLS E POWER UP’S</h2>
             </div>
-            <div>
+            <div className='relative'>
+                <div className='absolute w-full -top-10'>
+                    <Carousel items={items} />
+                </div>
+            </div>
+            <div className="slider-container rounded-2xl -mt-40 absolute top-96 -right-96 ml-custom2">
+                <div className="slider">
+                    <div>
+                        <div className=" slide bg-white p-6 rounded-2xl">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaCode
+                                    fontSize={90}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Clean Code</h2>
+                                    <h3 className='text-black text-sm'>Tenho como minha principal diretriz durante o<br /> desenvolvimento a qualidade do código seguindo as<br /> melhores práticas do mercado. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className=" slide bg-white p-6 rounded-2xl">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaUikit
+                                    fontSize={90}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Interfaces de alta fidelidade</h2>
+                                    <h3 className='text-black text-sm'>Trabalho com a implementação fiel de interfaces presando pela melhor experiência do usuário para atender as expectativas de cada projeto. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className=" slide bg-white p-6 ">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaRetweet
+                                    fontSize={190}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Metodologias Ágeis</h2>
+                                    <h3 className='text-black text-sm'>Utilizo metodologias e planejamentos otimizados que dinamizam o fluxo de produção. Através de feedback e interações constantes, garantindo a agilidade e eficiência do processo. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className=" slide bg-white p-6 rounded-2xl">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaCode
+                                    fontSize={90}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Clean Code</h2>
+                                    <h3 className='text-black text-sm'>Tenho como minha principal diretriz durante o<br /> desenvolvimento a qualidade do código seguindo as<br /> melhores práticas do mercado. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className=" slide bg-white p-6 rounded-2xl">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaUikit
+                                    fontSize={90}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Interfaces de alta fidelidade</h2>
+                                    <h3 className='text-black text-sm'>Trabalho com a implementação fiel de interfaces presando pela melhor experiência do usuário para atender as expectativas de cada projeto. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className=" slide bg-white p-6 ">
+                            <h2 className='text-gray-600 absolute -mt-40 text-sm font-bold'>DIFERENCIAIS</h2>
+                            <div className='flex items-center gap-10'>
+                                <FaRetweet
+                                    fontSize={130}
+                                    color='purple'
+                                />
+                                <div>
+                                    <h2 className='text-black'>Metodologias Ágeis</h2>
+                                    <h3 className='text-black text-sm'>Utilizo metodologias e planejamentos otimizados que dinamizam o fluxo de produção. Através de feedback e interações constantes, garantindo a agilidade e eficiência do processo. </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='bg-white h-screen'>
 
             </div>
         </div>

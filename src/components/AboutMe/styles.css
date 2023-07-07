@@ -3,3 +3,41 @@
     -moz-box-shadow: -1px 2px 39px 0px rgba(207, 128, 182, 0.75);
     box-shadow: -1px 2px 39px 0px rgba(207, 128, 182, 0.75);
 }
+
+.slider-container {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 4px 3px 48px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 48px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 3px 48px 0px rgba(0, 0, 0, 0.75);
+}
+
+.slider {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    animation: slide-animation 50s infinite linear;
+}
+
+.slide {
+    flex: 0 100% 100%;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+@keyframes slide-animation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
