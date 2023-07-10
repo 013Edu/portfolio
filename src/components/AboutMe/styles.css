@@ -32,6 +32,16 @@
 
 }
 
+@media (max-width: 375px) {
+    .slider-container {
+        top: 600px;
+        margin-top: 300px;
+        width: 330px;
+        left: -280px;
+    }
+}
+
+
 @keyframes slide-animation {
     0% {
         transform: translateX(0);

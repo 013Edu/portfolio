@@ -174,7 +174,7 @@ const AboutMe: React.FC = () => {
                 </div>
             </div>
 
-            <div className='bg-white h-screen'>
+            <div className='bg-white h-96 pb-32'>
 
             </div>
         </div>

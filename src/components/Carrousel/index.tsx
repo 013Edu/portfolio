@@ -63,7 +63,7 @@ const Carousel = ({ items }) => {
         <animated.div
           {...bind()}
           ref={itemRef}
-          className="flex max-[375px]:flex-wrap"
+          className="flex max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
           style={carouselStyle}
         >
           {items.map((item, index) => (

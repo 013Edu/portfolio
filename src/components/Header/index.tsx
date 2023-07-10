@@ -151,7 +151,7 @@ const Header: React.FC = () => {
 
             <div className='mt-64 flex justify-center lg:mt-64 '>
                 <h1
-                    className='lg:text-5xl lg:mt-96 text-center opacity-0 aos-init max-[1025px]:mt-96 min-[35px]:text-3xl min-[375px]:mt-48 min-[375px]:absolute min-[375px]:top-80'
+                    className='lg:text-5xl lg:mt-48 text-center opacity-0 aos-init max-[1025px]:mt-96 min-[35px]:text-3xl min-[375px]:absolute min-[375px]:mt-64'
                     data-aos='fade-left'
                     data-aos-delay='600'
                     data-aos-duration='600'
@@ -160,7 +160,7 @@ const Header: React.FC = () => {
                     gerando experiências digitais.
                 </h1>
                 <div
-                    className='absolute z-20 opacity-0 top-0 lg:top-10 aos-init max-[1025px]:mt-48 min-[375px]:mt-80'
+                    className='absolute z-20 opacity-0 lg:top-80 aos-init max-[1025px]:mt-48 min-[375px]:mt-16'
                     data-aos='fade-right'
                     data-aos-delay='600'
                     data-aos-duration='600'
@@ -173,7 +173,7 @@ const Header: React.FC = () => {
                     />
                 </div>
                 <div
-                    className='absolute z-10 -top-10 lg:mt-40 opacity-0 aos-init max-[1025px]:mt-48 max-[375px]:mt-44 max-[375px]:mr-10 '
+                    className='absolute z-10  lg:-mt-96 opacity-0 aos-init max-[1025px]:mt-48 max-[375px]:-mt-32 max-[375px]:mr-10'
                     data-aos='fade-left'
                     data-aos-delay='600'
                     data-aos-duration='600'

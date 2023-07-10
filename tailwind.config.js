@@ -15,7 +15,7 @@ module.exports = {
 
       margin: {
         'custom': '500px',
-        'custom2': '300px',
+        'custom2': '350px',
       }
     },
   },
