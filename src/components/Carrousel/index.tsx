@@ -1,5 +1,4 @@
-"use client"
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useGesture } from 'react-use-gesture';
@@ -14,8 +13,7 @@ const Carousel = ({ items }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [position, setPosition] = useState(0);
   const [carouselWidth, setCarouselWidth] = useState(0);
-  const itemRef = useRef<HTMLDivElement>(null); // Defina o tipo genérico para useRef
-
+  const itemRef = useRef<HTMLDivElement>(null);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
@@ -25,12 +23,13 @@ const Carousel = ({ items }: CarouselProps) => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (itemRef.current) {
       setCarouselWidth(itemRef.current.offsetWidth);
     }
-  }, [itemRef.current]); // Adicione itemRef.current como dependência do useEffect
+  }, []);
 
+  const [{ x }, set] = useSpring(() => ({ x: 0 }));
 
   const bind = useGesture(
     {
@@ -56,19 +55,14 @@ const Carousel = ({ items }: CarouselProps) => {
     }
   );
 
-  const [{ x }, set] = useSpring(() => ({ x: 0 }));
-
-  // ...
-
   const carouselStyle: React.CSSProperties = {
     transform: x.interpolate((val) => `translate3d(${val}px, 0, 0)`),
     userSelect: 'none',
   };
 
-
   return (
     <div className="relative">
-      <div className=" max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-w-sm max-[375px]:m-0 ">
+      <div className="max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-w-sm max-[375px]:m-0">
         <animated.div
           {...bind()}
           ref={itemRef}
@@ -78,8 +72,7 @@ const Carousel = ({ items }: CarouselProps) => {
           {items.map((item: any, index: any) => (
             <div
               key={index}
-              className={`flex-shrink-0 max-[375px]:mb-10 w-1/${items.length} ${index === currentIndex ? '' : ''
-                }`}
+              className={`flex-shrink-0 max-[375px]:mb-10 w-1/${items.length} ${index === currentIndex ? '' : ''}`}
               style={{ cursor: 'grab' }}
             >
               <ItemSkill image={item.image} text={item.text} />
