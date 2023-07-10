@@ -32,8 +32,6 @@ const Carousel = ({ items }: CarouselProps) => {
   }, [itemRef.current]); // Adicione itemRef.current como dependência do useEffect
 
 
-  const [{ x }, set] = useSpring(() => ({ x: 0 }));
-
   const bind = useGesture(
     {
       onDrag: ({ down, movement: [mx] }) => {
@@ -58,10 +56,15 @@ const Carousel = ({ items }: CarouselProps) => {
     }
   );
 
-  const carouselStyle = {
+  const [{ x }, set] = useSpring(() => ({ x: 0 }));
+
+  // ...
+
+  const carouselStyle: React.CSSProperties = {
     transform: x.interpolate((val) => `translate3d(${val}px, 0, 0)`),
     userSelect: 'none',
   };
+
 
   return (
     <div className="relative">
