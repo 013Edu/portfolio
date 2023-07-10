@@ -1,3 +1,4 @@
+"use client"
 import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
