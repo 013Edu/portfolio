@@ -6,7 +6,11 @@ import { useGesture } from 'react-use-gesture';
 
 import ItemSkill from '../ItemSkill';
 
-const Carousel = ({ items }) => {
+interface CarouselProps {
+  items: any;
+}
+
+const Carousel = ({ items }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [position, setPosition] = useState(0);
   const [carouselWidth, setCarouselWidth] = useState(0);
