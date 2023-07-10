@@ -35,11 +35,49 @@
 @media (max-width: 375px) {
     .slider-container {
         top: 600px;
-        margin-top: 300px;
+        margin-top: 200px;
+        margin-bottom: 200px;
         width: 330px;
-        left: -280px;
+        margin-left: 210px;
     }
 }
+
+@media (max-width: 1670px) {
+    .slider-container {
+        left: 280px;
+    }
+}
+
+@media (max-width: 1523px) {
+    .slider-container {
+        left: 180px;
+    }
+}
+
+@media (max-width: 1293px) {
+    .slider-container {
+        left: 100px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .slider-container {
+        left: 0px;
+    }
+}
+
+@media (max-width: 940px) {
+    .slider-container {
+        left: -90px;
+    }
+}
+
+@media (max-width: 910px) {
+    .slider-container {
+        left: -190px;
+    }
+}
+
 
 
 @keyframes slide-animation {

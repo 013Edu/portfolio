@@ -10,7 +10,7 @@ const WhatDoIDo: React.FC = () => {
     return (
         <div>
             <div className='flex justify-center bg-white pt-44'>
-                <div className='flex gap-6'>
+                <div className='flex gap-6 max-[375px]:hidden'>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
@@ -23,7 +23,7 @@ const WhatDoIDo: React.FC = () => {
                     <h2 className='text-purple-900 font-bold text-5xl'>O que faço</h2>
                     <h3 className='text-black font-bold'>SERVIÇOS E SOLUÇÕES</h3>
                 </div>
-                <div className='flex gap-6'>
+                <div className='flex gap-6 max-[375px]:hidden'>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
@@ -52,8 +52,8 @@ const WhatDoIDo: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex bg-white justify-center'>
-                <div className='flex flex-col bg-white items-center pt-12 border-r-2 pr-20'>
+            <div className='flex bg-white justify-center max-[375px]:flex-col '>
+                <div className='flex flex-col bg-white items-center pt-12 border-r-2 pr-20 max-[375px]:pr-0'>
                     <Image
                         src={Web}
                         alt='Logo do react'
@@ -70,7 +70,7 @@ const WhatDoIDo: React.FC = () => {
                         Saiba mais
                     </button>
                 </div>
-                <div className='flex flex-col bg-white items-center pt-12 pl-12 '>
+                <div className='flex flex-col bg-white items-center pt-12 pl-12 max-[375px]:pl-0'>
                     <Image
                         src={Design}
                         alt='Imagem de um compasso'
