@@ -1,6 +1,6 @@
 "use client"
-import { useState, useRef, useEffect, useLayoutEffect } from 'react';
-import { useSpring, animated } from 'react-spring';
+import { useState, useRef, useEffect } from 'react';
+import { animated, interpolate } from 'react-spring';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useGesture } from 'react-use-gesture';
 
@@ -24,19 +24,17 @@ const Carousel = ({ items }: CarouselProps) => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
   };
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (itemRef.current) {
       setCarouselWidth(itemRef.current.offsetWidth);
     }
   }, []);
 
-  const [{ x }, set] = useSpring(() => ({ x: 0 }));
-
   const bind = useGesture(
     {
       onDrag: ({ down, movement: [mx] }) => {
         if (down) {
-          set({ x: mx });
+          setPosition(mx);
         }
       },
       onDragEnd: ({ movement: [mx] }) => {
@@ -45,7 +43,7 @@ const Carousel = ({ items }: CarouselProps) => {
         } else if (mx < -carouselWidth / 2) {
           handleNext();
         }
-        set({ x: 0 });
+        setPosition(0);
       },
     },
     {
@@ -56,11 +54,6 @@ const Carousel = ({ items }: CarouselProps) => {
     }
   );
 
-  const carouselStyle: React.CSSProperties = {
-    transform: x.interpolate((val) => `translate3d(${val}px, 0, 0)`),
-    userSelect: 'none',
-  };
-
   return (
     <div className="relative">
       <div className="max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-w-sm max-[375px]:m-0">
@@ -68,7 +61,10 @@ const Carousel = ({ items }: CarouselProps) => {
           {...bind()}
           ref={itemRef}
           className="flex max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
-          style={carouselStyle}
+          style={{
+            transform: interpolate([position], (x) => `translate3d(${x}px, 0, 0)`),
+            userSelect: 'none',
+          }}
         >
           {items.map((item: any, index: any) => (
             <div
