@@ -1,6 +1,6 @@
 "use client"
-import { useState, useRef, useEffect } from 'react';
-import { animated, interpolate } from 'react-spring';
+import { useState, useRef, useLayoutEffect } from 'react';
+import { animated, useSpring } from 'react-spring';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useGesture } from 'react-use-gesture';
 
@@ -12,7 +12,6 @@ interface CarouselProps {
 
 const Carousel = ({ items }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [position, setPosition] = useState(0);
   const [carouselWidth, setCarouselWidth] = useState(0);
   const itemRef = useRef<HTMLDivElement>(null);
 
@@ -24,17 +23,19 @@ const Carousel = ({ items }: CarouselProps) => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (itemRef.current) {
       setCarouselWidth(itemRef.current.offsetWidth);
     }
   }, []);
 
+  const [{ x }, set] = useSpring(() => ({ x: 0 }));
+
   const bind = useGesture(
     {
       onDrag: ({ down, movement: [mx] }) => {
         if (down) {
-          setPosition(mx);
+          set({ x: mx });
         }
       },
       onDragEnd: ({ movement: [mx] }) => {
@@ -43,7 +44,7 @@ const Carousel = ({ items }: CarouselProps) => {
         } else if (mx < -carouselWidth / 2) {
           handleNext();
         }
-        setPosition(0);
+        set({ x: 0 });
       },
     },
     {
@@ -62,7 +63,7 @@ const Carousel = ({ items }: CarouselProps) => {
           ref={itemRef}
           className="flex max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
           style={{
-            transform: interpolate([position], (x) => `translate3d(${x}px, 0, 0)`),
+            transform: x.interpolate((val) => `translate3d(${val}px, 0, 0)`),
             userSelect: 'none',
           }}
         >
