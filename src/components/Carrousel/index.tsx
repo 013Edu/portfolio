@@ -14,7 +14,8 @@ const Carousel = ({ items }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [position, setPosition] = useState(0);
   const [carouselWidth, setCarouselWidth] = useState(0);
-  const itemRef = useRef(null);
+  const itemRef = useRef<HTMLDivElement>(null); // Defina o tipo genérico para useRef
+
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
@@ -28,7 +29,8 @@ const Carousel = ({ items }: CarouselProps) => {
     if (itemRef.current) {
       setCarouselWidth(itemRef.current.offsetWidth);
     }
-  }, []);
+  }, [itemRef.current]); // Adicione itemRef.current como dependência do useEffect
+
 
   const [{ x }, set] = useSpring(() => ({ x: 0 }));
 
@@ -70,7 +72,7 @@ const Carousel = ({ items }: CarouselProps) => {
           className="flex max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
           style={carouselStyle}
         >
-          {items.map((item, index) => (
+          {items.map((item: any, index: any) => (
             <div
               key={index}
               className={`flex-shrink-0 max-[375px]:mb-10 w-1/${items.length} ${index === currentIndex ? '' : ''
