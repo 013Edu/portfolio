@@ -84,6 +84,19 @@
     }
 }
 
+@media (max-width: 495px) {
+    .texto {
+        font-size: 10px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .subtexto {
+        display: none;
+    }
+}
+
+
 
 
 @keyframes slide-animation {
