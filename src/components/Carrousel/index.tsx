@@ -57,11 +57,11 @@ const Carousel = ({ items }: CarouselProps) => {
 
   return (
     <div className="relative">
-      <div className="max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-w-sm max-[375px]:m-0">
+      <div className="max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-[590px]:ml-0 max-[375px]:m-0">
         <animated.div
           {...bind()}
           ref={itemRef}
-          className="flex max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
+          className="flex max-[590px]:flex-wrap max-[590px]:bg-white max-[590px]: max-[375px]:flex-wrap max-[375px]:bg-white max-[375px]:pt-6"
           style={{
             transform: x.interpolate((val) => `translate3d(${val}px, 0, 0)`),
             userSelect: 'none',
