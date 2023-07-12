@@ -78,6 +78,12 @@
     }
 }
 
+@media (max-width: 495px) {
+    .slider-container {
+        left: -253px;
+    }
+}
+
 
 
 @keyframes slide-animation {

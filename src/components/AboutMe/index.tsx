@@ -74,7 +74,7 @@ const AboutMe: React.FC = () => {
                     <Carousel items={items} />
                 </div>
             </div>
-            <div className="slider-container rounded-2xl -mt-40 absolute top-96 -right-96 ml-custom2 max-[590px]:ml-64 max-[590px]:mt-64">
+            <div className="slider-container rounded-2xl -mt-40 absolute top-96 -right-96 ml-custom2 max-[590px]:ml-64 max-[590px]:mt-64 max-[495px]:-left-64">
                 <div className="slider">
                     <div>
                         <div className=" slide bg-white p-6 rounded-2xl">

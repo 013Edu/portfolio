@@ -52,8 +52,8 @@ const WhatDoIDo: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex bg-white justify-center max-[375px]:flex-col '>
-                <div className='flex flex-col bg-white items-center pt-12 border-r-2 pr-20 max-[375px]:pr-0'>
+            <div className='flex bg-white justify-center max-[375px]:flex-col max-[495px]:flex-col '>
+                <div className='flex ml-10 flex-col bg-white items-center pt-12 border-r-2 pr-20 max-[375px]:pr-0 max-[495px]:ml-20'>
                     <Image
                         src={Web}
                         alt='Logo do react'
@@ -70,7 +70,7 @@ const WhatDoIDo: React.FC = () => {
                         Saiba mais
                     </button>
                 </div>
-                <div className='flex flex-col bg-white items-center pt-12 pl-12 max-[375px]:pl-0'>
+                <div className='flex mr-10 flex-col bg-white items-center pt-12 pl-12 max-[375px]:pl-0'>
                     <Image
                         src={Design}
                         alt='Imagem de um compasso'
