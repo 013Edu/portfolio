@@ -44,7 +44,7 @@
 }
 
 .bg3 {
-    background-image: url("../../../public/assets/wallet.png");
+    background-image: url("../../../public/assets/wallet.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@
 }
 
 .bg4 {
-    background-image: url("../../../public/assets/nubank.png");
+    background-image: url("../../../public/assets/nubank.webp");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

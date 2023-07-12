@@ -167,12 +167,12 @@ const SectionPortfolio: React.FC = () => {
                     />
                 </button>
             </div>
-            <div className='bg-black w-96 px-32 py-20 flex flex-col justify-center gap-6 h-96 max-[375px]:px-10'>
+            <div className='bg-black w-96 px-20 pl-36 py-20 flex flex-col justify-center gap-6 h-96 max-[375px]:px-10'>
                 <h1 className='text-white text-5xl'>Portfólio</h1>
-                <h2 className='text-gray-50 font-mono'>CONHEÇA AS SOLUÇÕES<br />
-                    CRIADAS E DESENVOLVIDAS<br />
-                    PARA CLIENTES<br />
-                    DO MUNDO TODO.
+                <h2 className='text-gray-50 font-mono'>CONHEÇA AS SOLUÇÕES
+                    DIGITAIS<br />
+                    PARA MELHORAR SEUS NEGÕCIOS<br />
+                    E IMPULSIONAR SUA MARCA.
                 </h2>
             </div>
         </div>
