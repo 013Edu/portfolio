@@ -1,0 +1,13 @@
+.bg {
+    background-image: url("../../../public/assets/aluroni.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.bg:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}

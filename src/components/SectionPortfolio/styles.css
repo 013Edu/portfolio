@@ -1,0 +1,142 @@
+.slider-c {
+    width: 2500px;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-item {
+    width: 100%;
+    height: 384px;
+    display: flex;
+}
+
+.slider-button {
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+
+}
+
+.bg {
+    background-image: url("../../../public/assets/aluroni.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg2 {
+    background-image: url("../../../public/assets/tlou.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg3 {
+    background-image: url("../../../public/assets/wallet.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg4 {
+    background-image: url("../../../public/assets/nubank.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg5 {
+    background-image: url("../../../public/assets/spotify.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg6 {
+    background-image: url("../../../public/assets/memo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg7 {
+    background-image: url("../../../public/assets/nlw.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg8 {
+    background-image: url("../../../public/assets/poke.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Cor de fundo do overlay */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    /* Inicia com opacidade 0 para ficar oculto */
+    transition: opacity 0.3s;
+    /* Adiciona uma transição suave */
+}
+
+.bg:hover .overlay {
+    opacity: 1;
+    /* Ao fazer hover na div bg, altera a opacidade do overlay para 1 */
+}
+
+@media(max-width:375px) {
+    .slider-c {
+        max-width: 375px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
