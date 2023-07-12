@@ -10,7 +10,7 @@ const WhatDoIDo: React.FC = () => {
     return (
         <div>
             <div className='flex justify-center bg-white pt-44'>
-                <div className='flex gap-6 max-[375px]:hidden'>
+                <div className='flex gap-6 max-[740px]:hidden max-[375px]:hidden'>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
@@ -23,7 +23,7 @@ const WhatDoIDo: React.FC = () => {
                     <h2 className='text-purple-900 font-bold text-5xl'>O que faço</h2>
                     <h3 className='text-black font-bold'>SERVIÇOS E SOLUÇÕES</h3>
                 </div>
-                <div className='flex gap-6 max-[375px]:hidden'>
+                <div className='flex gap-6 max-[740px]:hidden max-[375px]:hidden'>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>
                     <p className='text-gray-300 text-2xl'>•</p>

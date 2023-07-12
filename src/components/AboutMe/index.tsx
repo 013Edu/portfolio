@@ -56,7 +56,7 @@ const AboutMe: React.FC = () => {
                         />
                     </div>
                 </div>
-                <div className='-mr-52 max-[375px]:max-w-sm max-[375px]:-mr-5'>
+                <div className='-mr-52 max-[375px]:max-w-sm max-[375px]:-mr-5 min-[1669px]:mr-5 max-[807px]:-mr-2 max-[807px]:px-5'>
                     <h2 className='text-8xl text-purple-600'>Olá,</h2>
                     <h3 className='mt-2'>
                         eu sou Eduardo Gonçalves, profissional graduando em Análise e Desenvolvimento<br /> de Sistemas, especializado em desenvolvimento Front-end e aplicações voltadas para a<br /> interface do usuário. Meu objetivo é encontrar as melhores soluções criativas<br /> para as marcas dos meus clientes, cuidando de cada detalhe e buscando sempre<br /> um impacto positivo na experiência do usuário.
@@ -74,7 +74,7 @@ const AboutMe: React.FC = () => {
                     <Carousel items={items} />
                 </div>
             </div>
-            <div className="slider-container rounded-2xl -mt-40 absolute top-96 -right-96 ml-custom2">
+            <div className="slider-container rounded-2xl -mt-40 absolute top-96 -right-96 ml-custom2 max-[590px]:ml-64">
                 <div className="slider">
                     <div>
                         <div className=" slide bg-white p-6 rounded-2xl">
