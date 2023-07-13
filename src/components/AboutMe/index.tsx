@@ -62,7 +62,7 @@ const AboutMe: React.FC = () => {
                         eu sou Eduardo Gonçalves, profissional graduando em Análise e Desenvolvimento<br /> de Sistemas, especializado em desenvolvimento Front-end e aplicações voltadas para a<br /> interface do usuário. Meu objetivo é encontrar as melhores soluções criativas<br /> para as marcas dos meus clientes, cuidando de cada detalhe e buscando sempre<br /> um impacto positivo na experiência do usuário.
                     </h3>
                     <h3>
-                        Se você procura um profissional para colaborar em projetos de Front-end, estou<br /> sempre disponível para discutir possibilidades. Basta entrar em contato comigo<br /> e conversarmos sobre como posso ajudar a impulsionar o sucesso de seu projeto.
+                        Se você procura um profissional para colaborar em projetos de Front-end, estou<br /> sempre disponível para discutir possibilidades. Entre em contato<br /> e conversaremos sobre como posso ajudar a impulsionar o sucesso de seu projeto.
                     </h3>
                 </div>
             </div>

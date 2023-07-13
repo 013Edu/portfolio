@@ -171,7 +171,7 @@ const SectionPortfolio: React.FC = () => {
                 <h1 className='text-white text-5xl'>Portfólio</h1>
                 <h2 className='text-gray-50 font-mono'>CONHEÇA AS SOLUÇÕES
                     DIGITAIS<br />
-                    PARA MELHORAR SEUS NEGÕCIOS<br />
+                    PARA MELHORAR SEUS NEGÓCIOS<br />
                     E IMPULSIONAR SUA MARCA.
                 </h2>
             </div>

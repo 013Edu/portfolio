@@ -16,6 +16,11 @@ module.exports = {
       margin: {
         'custom': '500px',
         'custom2': '350px',
+        'custom3': '10px',
+      },
+      width: {
+        'custom': '520px',
+        'custom2': '820px',
       }
     },
   },

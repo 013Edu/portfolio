@@ -1,0 +1,14 @@
+footer {
+    background-image: url("../../../public/assets/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.linee {
+    height: 1px;
+    width: 50%;
+    background-color: #878484;
+}
