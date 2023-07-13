@@ -31,7 +31,7 @@ const Header: React.FC = () => {
 
     return (
         <header className='lg:pt-6 min-[375px]:pt-0'>
-            <div className="sm:hidden bg-purple-600 min-[375px] py-3">
+            <div className="lg:hidden bg-purple-600 max-[1300px]:flex min-[375px] py-3">
                 <button onClick={handleMenuToggle}>
                     {isMenuOpen ? (
                         <FaTimes className="text-2xl ml-8" />
@@ -67,8 +67,8 @@ const Header: React.FC = () => {
                     </ul>
                 </div>
             </div>
-            <div className='hidden sm:block'>
-                <div className='flex justify-around'>
+            <div className='hidden sm:block '>
+                <div className='flex justify-around max-[1300px]:hidden'>
                     <div className='flex items-center gap-3'>
                         <div className='bg-slate-50 p-1 rounded hover:cursor-pointer hover:bg-purple-500 hover:text-white'>
                             <FaYoutube
@@ -124,23 +124,23 @@ const Header: React.FC = () => {
 
             </div>
             <div>
-                <nav className='mt-40 flex justify-around lg:flex min-[320px]:hidden'>
+                <nav className='mt-40 flex justify-around lg:flex max-[1300px]:mx-20 min-[320px]:hidden'>
                     <div className='flex gap-8'>
-                        <h2 className='text-2xl relative hover:cursor-pointer'>
+                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
                             QUEM SOU
                             <span className='line'></span>
                         </h2>
-                        <h2 className='text-2xl relative hover:cursor-pointer'>
+                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
                             O QUE FAÇO
                             <span className='line'></span>
                         </h2>
                     </div>
                     <div className='flex gap-8'>
-                        <h2 className='text-2xl relative hover:cursor-pointer'>
+                        <h2 className='text-2xl relative hover:cursor-pointer headerzin ml-64'>
                             PORTFÓLIO
                             <span className='line'></span>
                         </h2>
-                        <h2 className='text-2xl relative hover:cursor-pointer'>
+                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
                             FALE CONOSCO
                             <span className='line'></span>
                         </h2>
@@ -149,7 +149,7 @@ const Header: React.FC = () => {
 
             </div>
 
-            <div className='mt-64 flex justify-center lg:mt-64 '>
+            <div className='mt-64 flex justify-center lg:mt-64'>
                 <h1
                     className='lg:text-5xl lg:mt-48 text-center opacity-0 aos-init sm:mt-80 max-[1025px]:mt-96 max-[600px]:mt-96 min-[375px]:text-3xl min-[375px]:absolute min-[375px]:mt-64'
                     data-aos='fade-left'

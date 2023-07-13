@@ -12,6 +12,12 @@ h2:hover .line {
     width: 100%;
 }
 
+@media (max-width: 1300px) {
+    .headerzin {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 590px) {
     .mac {
         margin-top: -30px;
