@@ -52,7 +52,7 @@ const WhatDoIDo: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex bg-white justify-center max-[375px]:flex-col max-[495px]:flex-col '>
+            <div className='flex bg-white justify-center max-[600px]:pb-10 max-[495px]:flex-col max-[375px]:flex-col'>
                 <div className='flex ml-10 flex-col bg-white items-center pt-12 border-r-2 pr-20 max-[375px]:pr-0 max-[495px]:ml-20'>
                     <Image
                         src={Web}
@@ -82,7 +82,7 @@ const WhatDoIDo: React.FC = () => {
                         UX
                     </h2>
                     <h3 className='text-neutral-500 font-bold'>PROTOTIPAGEM</h3>
-                    <p className='text-neutral-500 font-extralight my-3 text-center'>Desenvolvimento de protótipos em baixa<br /> fidelidade para validação de fluxo e experiência do usuário.</p>
+                    <p className='text-neutral-500 font-extralight my-3 text-center max-[600px]:mb-16'>Desenvolvimento de protótipos em baixa<br /> fidelidade para validação de fluxo e experiência do usuário.</p>
                     <button className='text-black rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'>
                         Saiba mais
                     </button>

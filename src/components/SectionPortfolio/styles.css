@@ -125,6 +125,241 @@
     /* Ao fazer hover na div bg, altera a opacidade do overlay para 1 */
 }
 
+@media(max-width:600px) {
+    .slider-c {
+        max-width: 600px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:590px) {
+    .slider-c {
+        max-width: 590px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:580px) {
+    .slider-c {
+        max-width: 580px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:570px) {
+    .slider-c {
+        max-width: 570px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:560px) {
+    .slider-c {
+        max-width: 560px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:550px) {
+    .slider-c {
+        max-width: 550px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:540px) {
+    .slider-c {
+        max-width: 540px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:530px) {
+    .slider-c {
+        max-width: 530px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:520px) {
+    .slider-c {
+        max-width: 520px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:510px) {
+    .slider-c {
+        max-width: 510px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .slider-c {
+        max-width: 500px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:490px) {
+    .slider-c {
+        max-width: 430px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+@media(max-width:400px) {
+    .slider-c {
+        max-width: 380px;
+    }
+
+    .slider-item {
+        display: flex;
+        flex-direction: column;
+        height: 3200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .slider-button {
+        display: none;
+    }
+}
+
+
 @media(max-width:375px) {
     .slider-c {
         max-width: 375px;
@@ -134,6 +369,8 @@
         display: flex;
         flex-direction: column;
         height: 3200px;
+        margin-left: 0;
+        padding: 0;
     }
 
     .slider-button {

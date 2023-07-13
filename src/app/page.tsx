@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <AboutMe />
       <WhatDoIDo />
+      <SectionPortfolio />
     </main>
   )
 }

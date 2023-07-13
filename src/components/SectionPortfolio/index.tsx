@@ -23,8 +23,8 @@ const SectionPortfolio: React.FC = () => {
 
 
     return (
-        <div className='bg-white py-20 flex max-[375px]:flex-col'>
-            <div className='bg-purple-900 w-96 px-10 py-20 flex flex-col justify-center gap-6 h-96'>
+        <div className='bg-white py-20 flex max-[600px]:flex-col max-[375px]:flex-col'>
+            <div className='bg-purple-900 w-96 px-10 py-20 flex flex-col justify-center gap-6 h-96 max-[600px]:w-full'>
                 <h1 className='text-white text-5xl'>Portfólio</h1>
                 <h2 className='text-gray-50 font-mono'>CONHEÇA AS SOLUÇÕES<br />
                     CRIADAS E DESENVOLVIDAS<br />
@@ -167,7 +167,7 @@ const SectionPortfolio: React.FC = () => {
                     />
                 </button>
             </div>
-            <div className='bg-black w-96 px-20 pl-36 py-20 flex flex-col justify-center gap-6 h-96 max-[375px]:px-10'>
+            <div className='bg-black w-96 px-20 pl-36 py-20 flex flex-col justify-center gap-6 h-96 max-[600px]:w-full max-[375px]:px-10'>
                 <h1 className='text-white text-5xl'>Portfólio</h1>
                 <h2 className='text-gray-50 font-mono'>CONHEÇA AS SOLUÇÕES
                     DIGITAIS<br />
