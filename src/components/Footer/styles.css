@@ -12,3 +12,25 @@ footer {
     width: 50%;
     background-color: #878484;
 }
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 3000ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 3000ms;
+}
+
+.fade-exit-done {
+    opacity: 0;
+}

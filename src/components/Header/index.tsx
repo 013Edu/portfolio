@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 
 import "./styles.css"
 
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 import Mac from "../../../public/assets/mac.jpg"
 import Phone from "../../../public/assets/phone.jpg"
 import Logo from "../../../public/assets/logo.png"
@@ -30,7 +32,7 @@ const Header: React.FC = () => {
         }`;
 
     return (
-        <header className='lg:pt-6 min-[375px]:pt-0'>
+        <header id='home' className='lg:pt-6 min-[375px]:pt-0'>
             <div className="lg:hidden bg-purple-600 max-[1300px]:flex min-[375px] py-3">
                 <button onClick={handleMenuToggle}>
                     {isMenuOpen ? (
@@ -45,24 +47,48 @@ const Header: React.FC = () => {
                 <div className={menuClass}>
                     <ul className="flex gap-3 mt-3 flex-col">
                         <li>
-                            <a href="#" className="hover:text-gray-400 text-xs">
+                            <Link
+                                className="hover:text-gray-400 text-xs cursor-pointer"
+                                to="about-me"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}
+                            >
                                 QUEM SOU
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-400 text-xs">
+                            <Link
+                                className="hover:text-gray-400 text-xs cursor-pointer"
+                                to="what-do-i-do"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}
+                            >
                                 O QUE FAÇO
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-400 text-xs">
+                            <Link
+                                className="hover:text-gray-400 text-xs cursor-pointer"
+                                to="portfolio"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}
+                            >
                                 PORTFÓLIO
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-gray-400 text-xs">
+                            <Link
+                                className="hover:text-gray-400 text-xs cursor-pointer"
+                                to="tell-me"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}
+                            >
                                 FALE CONOSCO
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -71,22 +97,37 @@ const Header: React.FC = () => {
                 <div className='flex justify-around max-[1300px]:hidden'>
                     <div className='flex items-center gap-3'>
                         <div className='bg-slate-50 p-1 rounded hover:cursor-pointer hover:bg-purple-500 hover:text-white'>
-                            <FaYoutube
-                                size={25}
-                                className='text-black transition-colors duration-1000 hover:text-white'
-                            />
+                            <a
+                                href="https://www.youtube.com/channel/UCNEcjY1seAsF35ymQ4IVtCA"
+                                target='_blank'
+                            >
+                                <FaYoutube
+                                    size={25}
+                                    className='text-black transition-colors duration-1000 hover:text-white'
+                                />
+                            </a>
                         </div>
                         <div className='bg-slate-50 p-1 rounded hover:cursor-pointer hover:bg-purple-500 hover:text-white'>
-                            <FaInstagram
-                                size={25}
-                                className='text-black transition-colors duration-1000 hover:text-white'
-                            />
+                            <a
+                                href="https://instagram.com/eduardoogoncalvess_/"
+                                target='_blank'
+                            >
+                                <FaInstagram
+                                    size={25}
+                                    className='text-black transition-colors duration-1000 hover:text-white'
+                                />
+                            </a>
                         </div>
                         <div className='bg-slate-50 p-1 rounded hover:cursor-pointer hover:bg-purple-500 hover:text-white'>
-                            <FaLinkedinIn
-                                size={25}
-                                className='text-black transition-colors duration-1000 hover:text-white'
-                            />
+                            <a
+                                href="https://www.linkedin.com/in/eduardo-gon%C3%A7alves1/"
+                                target='_blank'
+                            >
+                                <FaLinkedinIn
+                                    size={25}
+                                    className='text-black transition-colors duration-1000 hover:text-white'
+                                />
+                            </a>
                         </div>
                     </div>
                     <div className='text-center'>
@@ -126,24 +167,48 @@ const Header: React.FC = () => {
             <div>
                 <nav className='mt-40 flex justify-around lg:flex max-[1300px]:mx-20 min-[320px]:hidden'>
                     <div className='flex gap-8'>
-                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
+                        <Link
+                            className='text-2xl relative hover:cursor-pointer headerzin'
+                            to="about-me"
+                            smooth={true}
+                            duration={500}
+                            offset={-100}
+                        >
                             QUEM SOU
                             <span className='line'></span>
-                        </h2>
-                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
+                        </Link>
+                        <Link
+                            className='text-2xl relative hover:cursor-pointer headerzin'
+                            to="what-do-i-do"
+                            smooth={true}
+                            duration={500}
+                            offset={-100}
+                        >
                             O QUE FAÇO
                             <span className='line'></span>
-                        </h2>
+                        </Link>
                     </div>
                     <div className='flex gap-8'>
-                        <h2 className='text-2xl relative hover:cursor-pointer headerzin ml-64'>
+                        <Link
+                            className='text-2xl relative hover:cursor-pointer headerzin ml-64'
+                            to="portfolio"
+                            smooth={true}
+                            duration={500}
+                            offset={-100}
+                        >
                             PORTFÓLIO
                             <span className='line'></span>
-                        </h2>
-                        <h2 className='text-2xl relative hover:cursor-pointer headerzin'>
+                        </Link>
+                        <Link
+                            className='text-2xl relative hover:cursor-pointer headerzin'
+                            to="tell-me"
+                            smooth={true}
+                            duration={500}
+                            offset={-100}
+                        >
                             FALE CONOSCO
                             <span className='line'></span>
-                        </h2>
+                        </Link>
                     </div>
                 </nav>
 

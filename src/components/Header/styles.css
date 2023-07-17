@@ -8,7 +8,7 @@
     transition: width 0.3s ease-in-out;
 }
 
-h2:hover .line {
+a:hover .line {
     width: 100%;
 }
 

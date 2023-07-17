@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import React from 'react';
 
@@ -5,10 +6,12 @@ import App from "../../../public/assets/mobile.png"
 import Web from "../../../public/assets/react.png"
 import Design from "../../../public/assets/proti.png"
 
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 const WhatDoIDo: React.FC = () => {
 
     return (
-        <div>
+        <div id='what-do-i-do'>
             <div className='flex justify-center bg-white pt-44'>
                 <div className='flex gap-6 max-[740px]:hidden max-[375px]:hidden'>
                     <p className='text-gray-300 text-2xl'>•</p>
@@ -47,9 +50,15 @@ const WhatDoIDo: React.FC = () => {
                     </h2>
                     <h3 className='text-neutral-500 font-bold'>ANDROID E IOS</h3>
                     <p className='text-neutral-500 font-extralight my-3'>Desenvolvimento de aplicativos através do<br /> framework React Native.</p>
-                    <button className='text-black rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'>
+                    <Link
+                        className='text-black cursor-pointer rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'
+                        to="tell-me"
+                        smooth={true}
+                        duration={500}
+                        offset={100}
+                    >
                         Saiba mais
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div className='flex bg-white justify-center max-[600px]:pb-10 max-[495px]:flex-col max-[375px]:flex-col'>
@@ -66,9 +75,15 @@ const WhatDoIDo: React.FC = () => {
                     </h2>
                     <h3 className='text-neutral-500 font-bold'>DESENVOLVIMENTO WEB</h3>
                     <p className='text-neutral-500 font-extralight my-3 text-center'>Desenvolvimento de sites, landing pages e softwares<br /> com as tecnologias mais atuais do mercado.</p>
-                    <button className='text-black rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'>
+                    <Link
+                        className='text-black cursor-pointer rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'
+                        to="tell-me"
+                        smooth={true}
+                        duration={500}
+                        offset={100}
+                    >
                         Saiba mais
-                    </button>
+                    </Link>
                 </div>
                 <div className='flex mr-10 flex-col bg-white items-center pt-12 pl-12 max-[375px]:pl-0'>
                     <Image
@@ -83,9 +98,15 @@ const WhatDoIDo: React.FC = () => {
                     </h2>
                     <h3 className='text-neutral-500 font-bold'>PROTOTIPAGEM</h3>
                     <p className='text-neutral-500 font-extralight my-3 text-center max-[600px]:mb-16'>Desenvolvimento de protótipos em baixa<br /> fidelidade para validação de fluxo e experiência do usuário.</p>
-                    <button className='text-black rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'>
+                    <Link
+                        className='text-black cursor-pointer rounded-lg border border-black p-2 transition-colors hover:bg-black hover:text-white'
+                        to="tell-me"
+                        smooth={true}
+                        duration={500}
+                        offset={100}
+                    >
                         Saiba mais
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

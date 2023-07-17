@@ -25,8 +25,8 @@ const AboutMe: React.FC = () => {
 
 
     return (
-        <div>
-            <div className='mt-custom flex items-center justify-center gap-20 max-[1540px]:flex-col max-[375px]:flex-col max-[375px]:px-5'>
+        <div id='about-me'>
+            <div id='about-me' className='mt-custom flex items-center justify-center gap-20 max-[1540px]:flex-col max-[375px]:flex-col max-[375px]:px-5'>
                 <div className='px-10 texto'>
                     <div className='w-96 relative max-[375px]:w-72'>
                         <h3 className='my-8 text-purple-600 text-xl font-mono tracking-widest'>CITAÇÃO</h3>
@@ -40,7 +40,7 @@ const AboutMe: React.FC = () => {
                         </h4>
                         <div>
                             <h2 className='text-purple-600 mt-5 text-xl font-mono tracking-widest'>OCUPAÇÕES ATUAIS</h2>
-                            <h3 className='mt-2'>Mobile Engineer at Agile</h3>
+                            <h3 className='mt-2'>Frontend Engineer Freelancer</h3>
                         </div>
                     </div>
                 </div>
