@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
-    "@types/react-scroll": "^1.8.7"
+    "@types/react-scroll": "^1.8.7",
+    "@types/react-transition-group": "^4.4.6"
   }
 }
