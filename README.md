@@ -10,4 +10,5 @@
 - React Icons
 
   ## Screen
-  ![WhatsApp Image 2023-07-13 at 12 30 53](https://github.com/013Edu/portfolio/assets/91925011/7be56e9c-7965-4029-a029-9a23e3293009)
+
+![image](https://github.com/013Edu/portfolio/assets/91925011/cbebb36b-052e-4b41-a244-4e39fe5ec225)
