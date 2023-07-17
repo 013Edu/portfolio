@@ -41,7 +41,7 @@ const SectionPortfolio: React.FC = () => {
                         <div className="slider-item">
                             <div className="container">
                                 <div className="bg">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/aluroni' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Aluroni</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -49,13 +49,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg2">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/tlou' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>The Last of Us</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -63,13 +63,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Taiwlind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg3">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/wallet-app' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Wallet App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -77,13 +77,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg4">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nubankApp' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Nubank App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javscript</button>
@@ -91,13 +91,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg5">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/spotify-clone' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Spotify Clone</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -105,13 +105,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Tailwind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg6">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/memo-teca' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Memoteca</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -119,13 +119,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg7">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nlw-setup' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Habits</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javascript</button>
@@ -133,13 +133,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg8">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/PokeNext' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Poke Next</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Next Js</button>
@@ -147,13 +147,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>SASS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/aluroni' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Aluroni</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -161,13 +161,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg2">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/tlou' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>The Last of Us</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -175,13 +175,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Taiwlind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg3">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/wallet-app' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Wallet App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -189,13 +189,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg4">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nubankApp' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Nubank App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javscript</button>
@@ -203,13 +203,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg5">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/spotify-clone' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Spotify Clone</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -217,13 +217,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Tailwind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg6">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/memo-teca' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Memoteca</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -231,13 +231,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg7">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nlw-setup' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Habits</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javascript</button>
@@ -245,13 +245,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg8">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/PokeNext' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Poke Next</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Next Js</button>
@@ -259,13 +259,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>SASS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/aluroni' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Aluroni</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -273,13 +273,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg2">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/tlou' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>The Last of Us</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -287,13 +287,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Taiwlind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg3">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/wallet-app' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Wallet App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -301,13 +301,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg4">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nubankApp' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Nubank App</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javscript</button>
@@ -315,13 +315,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg5">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/spotify-clone' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Spotify Clone</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -329,13 +329,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Tailwind</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg6">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/memo-teca' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Memoteca</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Typescript</button>
@@ -343,13 +343,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Styled Components</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg7">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/nlw-setup' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Habits</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Javascript</button>
@@ -357,13 +357,13 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>CSS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="container">
                                 <div className="bg bg8">
-                                    <div className="overlay">
+                                    <a href='https://github.com/013Edu/PokeNext' target='_blank' className="overlay">
                                         <h2 className='mt-60 text-2xl font-bold'>Poke Next</h2>
                                         <div className='text-white my-2 flex gap-2'>
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>Next Js</button>
@@ -371,7 +371,7 @@ const SectionPortfolio: React.FC = () => {
                                             <button className='bg-purple-500 p-1 rounded-2xl text-xs text-white font-bold'>SASS</button>
                                         </div>
                                         <button className='text-white border rounded-2xl p-1 px-2 border-white hover:bg-purple-700 hover:border-purple-700 transition-colors'>Ver detalhes do projeto</button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
