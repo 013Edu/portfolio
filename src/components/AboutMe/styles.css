@@ -60,6 +60,12 @@
     }
 }
 
+@media (max-width: 1293px) {
+    .slider-container {
+        left: 100px;
+    }
+}
+
 @media (max-width: 1060px) {
     .slider-container {
         left: 0px;

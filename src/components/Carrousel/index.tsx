@@ -57,7 +57,7 @@ const Carousel = ({ items }: CarouselProps) => {
 
   return (
     <div className="relative">
-      <div className=" max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-36 max-[1270px]:max-w-2xl max-[600px]:max-[590px]:ml-0 max-[375px]:m-0">
+      <div className=" max-w-5xl ml-96 overflow-hidden max-[1480px]:ml-48 max-[1270px]:ml-64 max-[1270px]:max-w-2xl max-[1212px]:ml-48 max-[960px]:ml-20 max-[927px]:ml-30 max-[82px]:ml-32 min-[751px]:mr-48 min-[772px]:mr-48 max-[600px]:max-[590px]:ml-0 max-[375px]:m-0">
         <animated.div
           {...bind()}
           ref={itemRef}

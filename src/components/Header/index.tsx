@@ -32,8 +32,8 @@ const Header: React.FC = () => {
         }`;
 
     return (
-        <header id='home' className='lg:pt-6 min-[375px]:pt-0'>
-            <div className="lg:hidden bg-purple-600 max-[1300px]:flex min-[375px] py-3">
+        <header id='home' className='min-[375px]:pt-0'>
+            <div className="hidden max-[1246px]:block max-[1246px]:-mt-6 bg-purple-600 py-3">
                 <button onClick={handleMenuToggle}>
                     {isMenuOpen ? (
                         <FaTimes className="text-2xl ml-8" />
@@ -132,7 +132,7 @@ const Header: React.FC = () => {
                     </div>
                     <div className='text-center'>
                         <h3 className='text-3xl'>EDUARDO GONÇALVES</h3>
-                        <h3>FREELANCE•DEVELOPER</h3>
+                        <h3>FRONTEND•DEVELOPER</h3>
                     </div>
                     <div className='flex items-center gap-3 -mr-16'>
                         <div className='bg-slate-50 p-1 rounded'>
@@ -166,7 +166,7 @@ const Header: React.FC = () => {
             </div>
             <div>
                 <nav className='mt-40 flex justify-around lg:flex max-[1300px]:mx-20 min-[320px]:hidden'>
-                    <div className='flex gap-8'>
+                    <div className='gap-8 lg:hidden md:flex xl:flex'>
                         <Link
                             className='text-2xl relative hover:cursor-pointer headerzin'
                             to="about-me"
@@ -188,7 +188,8 @@ const Header: React.FC = () => {
                             <span className='line'></span>
                         </Link>
                     </div>
-                    <div className='flex gap-8'>
+
+                    <div className='flex gap-8 lg:hidden md:flex xl:flex'>
                         <Link
                             className='text-2xl relative hover:cursor-pointer headerzin ml-64'
                             to="portfolio"

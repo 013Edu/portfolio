@@ -40,7 +40,7 @@ const AboutMe: React.FC = () => {
                         </h4>
                         <div>
                             <h2 className='text-purple-600 mt-5 text-xl font-mono tracking-widest'>OCUPAÇÕES ATUAIS</h2>
-                            <h3 className='mt-2'>Frontend Engineer Freelancer</h3>
+                            <h3 className='mt-2'>Frontend Engineer</h3>
                         </div>
                     </div>
                 </div>

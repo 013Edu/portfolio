@@ -12,6 +12,17 @@ a:hover .line {
     width: 100%;
 }
 
+#home {
+    padding-top: 1.5rem;
+}
+
+@media (max-width: 1243px) {
+    nav .mt-40 {
+        display: none;
+    }
+}
+
+
 @media (max-width: 1300px) {
     .headerzin {
         font-size: 16px;
